@@ -87,6 +87,9 @@
     sdvc.footer = [_optionsNotes objectAtIndex:index];
   }
 }
+- (IBAction)unwindToRoot:(id)sender {
+        [self dismissViewControllerAnimated:true completion:nil];
+}
 
 # pragma mark - Table view data source
 

@@ -1,0 +1,12 @@
+Pods
+Podfile.lock
+CSPROJECTNAME.xcworkspace/*
+.DS_Store
+.Library/*
+CSPROJECTNAME.xcodeproj/xcuserdata/*
+*.xcuserstate
+*.xccheckout
+xcuserdata
+DerviedData
+.idea
+.irb-history

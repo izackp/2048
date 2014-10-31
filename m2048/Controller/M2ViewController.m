@@ -60,8 +60,14 @@
   
   _scene = scene;
   _scene.controller = self;
+    
+    [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+}
 
 - (void)updateState
 {
@@ -143,7 +149,6 @@
     [_scene startNewGame];
   }
 }
-
 
 - (void)endGame:(BOOL)won
 {
