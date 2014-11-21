@@ -66,8 +66,6 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self.navigationController.navigationBar setTintColor:[UIColor grayColor]];
-    if (self.navigationController.navigationBar.topItem != self.navigationItem)
-        self.navigationController.navigationBar.topItem.title = @"Back";
 }
 
 - (void)updateState
